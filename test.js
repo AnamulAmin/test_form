@@ -8,7 +8,7 @@ document
       door: document.getElementById("door").value,
     };
 
-    fetch("http://localhost:8000/api/visitors/get-door-access", {
+    fetch("https://multigympremium.vercel.app/api/visitors/get-door-access", {
       // Replace with your server URL
       method: "POST",
       headers: {
